@@ -1,0 +1,26 @@
+*{
+  padding:0px;
+  border:0px;
+  margin:0px;
+}
+
+#fractal-container{
+  width: 1024px;
+  height: 700px;
+  margin: 0 auto;
+  border: 1px solid deepskyblue;
+  padding: 0;
+}
+
+.info-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.data-input{
+  border: 1px solid deepskyblue;
+  border-radius: 3px;
+  padding: 1px;
+  font-size: 14px;
+  margin-right: 17px;
+}
