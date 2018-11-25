@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>3D Fractal Generator</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="../ThirdParty/three.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="fractal-container"></div>
+    <div class= "info-container">
+      <label for="branch-amount">
+        Branch Amount:
+        <input id="branch-amount" class="data-input" type="number" min="1" max="10" step="1" value="3" required/>
+    </label>
+    <label for="recursion-depth">
+        Recursion Depth:
+        <input id="recursion-depth" class="data-input" type="number" min="1" max="10" step="1" value="3" required/>
+    </label>
+    <label for="rotation-speed">
+        Rotation Speed:
+        <input id="rotation-speed" class="data-input" type="number" min="0" max="0.02" step="0.002" value="0.006" required/>
+    </label>
+    </div>
+  </body>
+</html>
